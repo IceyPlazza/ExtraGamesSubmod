@@ -405,6 +405,7 @@ label millionaire_guess_a:
         else:
             play sound("Submods/ExtraGamesSubmod/Millionaire/sfx/wrong.ogg")
             m 2lksdld "That's incorrect. Sorry.{w=2}"
+            m 1hksdlb "The correct answer is [curquestion.correctAnswer]." 
             call mas_millionaire_lose_results
     return
 
@@ -441,6 +442,7 @@ label millionaire_guess_b:
         else:
             play sound("Submods/ExtraGamesSubmod/Millionaire/sfx/wrong.ogg")
             m 2lksdld "That's incorrect. Sorry.{w=2}"
+            m 1hksdlb "The correct answer is [curquestion.correctAnswer]." 
             call mas_millionaire_lose_results
     return
 
@@ -477,6 +479,7 @@ label millionaire_guess_c:
         else:
             play sound("Submods/ExtraGamesSubmod/Millionaire/sfx/wrong.ogg")
             m 2lksdld "That's incorrect. Sorry.{w=2}"
+            m 1hksdlb "The correct answer is [curquestion.correctAnswer]." 
             call mas_millionaire_lose_results
     return
 
@@ -513,6 +516,7 @@ label millionaire_guess_d:
         else:
             play sound("Submods/ExtraGamesSubmod/Millionaire/sfx/wrong.ogg")
             m 2lksdld "That's incorrect. Sorry.{w=2}"
+            m 1hksdlb "The correct answer is [curquestion.correctAnswer]." 
             call mas_millionaire_lose_results
     return
 
